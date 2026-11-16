@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+vue-fe/node_modules/
+vue-fe/dist/
+
+# Python
+__pycache__/
+*.pyc
+fastapi-be/.venv/
+
+# Java/Gradle
+springboot-be/.gradle/
+springboot-be/build/
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets & credentials
+*.pem
+*.env
+fastapi-be/.env
+springboot-be/src/main/resources/env.txt
+settings.local.json
+
+# Storage & data
+storage/
+fastapi-be/venv/
+.qdrant-initialized
